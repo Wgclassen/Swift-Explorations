@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Checking for Characters'/>
+        <page name='Advanced Rules'/>
+        <page name='Custom Algorithm'/>
+        <page name='Challenge-Brute Force Guessing'/>
+    </pages>
+</playground>

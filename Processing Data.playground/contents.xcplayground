@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='Data Processing'/>
+        <page name='Tabulation'/>
+        <page name='Counting Shows'/>
+        <page name='Data Errors'/>
+        <page name='Correcting Errors'/>
+        <page name='Third-Party Code'/>
+        <page name='Spelling Errors'/>
+        <page name='Higher-Order Information'/>
+        <page name='Maximum and Minimum'/>
+        <page name='Ranking'/>
+        <page name='Wrapup'/>
+    </pages>
+</playground>

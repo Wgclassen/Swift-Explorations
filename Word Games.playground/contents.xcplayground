@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Coding Hints'/>
+        <page name='Game 1'/>
+        <page name='Game 2'/>
+        <page name='Game 3'/>
+        <page name='Game 4'/>
+        <page name='Game 5'/>
+    </pages>
+</playground>

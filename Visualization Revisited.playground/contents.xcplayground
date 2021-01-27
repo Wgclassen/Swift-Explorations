@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Pie Charts'/>
+        <page name='Pie Chart Settings'/>
+        <page name='More About Colors'/>
+        <page name='Bar Charts'/>
+        <page name='Bar Chart Settings'/>
+        <page name='Plots'/>
+        <page name='Plot Settings'/>
+        <page name='Wrapup'/>
+    </pages>
+</playground>
