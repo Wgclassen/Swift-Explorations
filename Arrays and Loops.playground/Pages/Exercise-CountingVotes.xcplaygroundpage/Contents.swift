@@ -22,7 +22,18 @@ This is also a lot of votes for Swift to use type inference to determine what ki
 //:  - callout(Exercise): Create a `for…in` loop that iterates over one of the vote arrays and checks the value of each vote. If the vote is `true`, the loop should add one vote to the `yes` variable. If it's `false`, it should add one vote to the `no` variable.
 
 //:  - callout(Exercise): After the loop has finished, write an `if` statement that compares the two values and prints a different message based on whether the vote passed or failed.
+var Yes = 0
+var No = 0
 
+for vote in shouldInstallCoffeeVendingMachineVotes {
+    if vote {
+        Yes += 1
+    } else {
+        No += 1
+    }
+}
+print ("Yes: \(Yes)")
+print ("No: \(No)")
 /*:
  - callout(Exercise): Test your code by calling the `for…in` loop on each of the vote arrays.\
 Which measures won by popular vote?

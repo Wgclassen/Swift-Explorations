@@ -8,18 +8,16 @@
 import Foundation
 
 aliceMessages
-
-
 /*:
  The Caterpillar has asked you to go through the messages and to relay any that contain the Caterpillar's name, along with the message number. Instead of reading all the text yourself, you decide to write more code to help.
  
  You'll use another kind of `for...in` loop on this page. You're accustomed to the loop variable containing the items from the array, but in this case, you want to print the message number. So your loop will iterate over the *indices* of the array instead of its contents. Here's an example of iterating over the indices of an array.
  */
-let colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+//let colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
 
-for i in 0 ... colors.count - 1 {
-    print("\(i): \(colors[i])")
-}
+//for i in 0 ... colors.count - 1 {
+//    print("\(i): \(colors[i])")
+//}
 /*:
  The loop variable is `i`. Its values are defined by the *range expression* to the right. It uses the `...` operator to define a series of values starting with the one on the left, going up through the one on the right. To generate the indices of an array, the start of the range is 0, and the end is the last index, which is one less than the count of the array.
  
@@ -32,7 +30,11 @@ for i in 0 ... colors.count - 1 {
  - Note: The `contains` method is part of the `Foundation` framework that you read about in the “Types” playground. That's why the `import Foundation` statement is in the code above. If the framework isn't imported, you'll get an error saying “Value of type 'String' has no member 'contains'.”
  */
 // Write the `for…in` loop here:
-
+for passage in 0 ... aliceMessages.count - 1 {
+    if (aliceMessages[passage].contains("Caterpillar")) {
+    print("Passage number \(passage): \(aliceMessages[passage])")
+    }
+}
 /*:
 [Previous](@previous)  |  page 17 of 18  |  [Next: Exercise: Partial Iteration](@next)
  */

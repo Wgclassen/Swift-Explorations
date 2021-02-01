@@ -24,7 +24,25 @@ print("\(factorialNumberToCalculate)! = \(result)")
  \
  Use a Boolean variable to keep track of whether you've found a message and an index variable that you increment in the loop. Make sure to test your code with names that won't turn up any messages to account for potential bugs. (Your conditional will be a compound Boolean expression.)
  */
+func searchCharacter (characterSearch: String) {
+    var foundMessage = false
+    var passage = 0
+    while !foundMessage {
+            if (aliceMessages[passage].contains(characterSearch)) {
+            print("Found \(characterSearch) for the first time on passage number \(passage+1): \n \(aliceMessages[passage])")
+            foundMessage = true
+            } else if passage == aliceMessages.count-1 {
+                print("The character you were searching for could not be found")
+                foundMessage = true
+            } else {
+                passage += 1
+            }
+    }
+}
 
+searchCharacter(characterSearch: "Caterpillar")
+searchCharacter(characterSearch: "Alice")
+searchCharacter(characterSearch: "Batman")
 /*:
   _Copyright © 2020 Apple Inc._
  
