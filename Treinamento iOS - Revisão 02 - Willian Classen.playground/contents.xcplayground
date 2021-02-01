@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Funções'/>
+        <page name='Tomada de Decisões'/>
+        <page name='Instâncias, Métodos e Propriedades'/>
+        <page name='Vetores'/>
+        <page name='Loops'/>
+    </pages>
+</playground>
