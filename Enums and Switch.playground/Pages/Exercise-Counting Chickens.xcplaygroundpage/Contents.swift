@@ -8,8 +8,11 @@
 chickens
 //:  The chickens are all hatched, so it’s safe to count them.
 var chickenOfInterestCount = 0
+
 for chicken in chickens {
+    if chicken.temper == .friendly {
     chickenOfInterestCount += 1
+    }
 }
 chickenOfInterestCount
 //:  - callout(Exercise): Update the code in the `for…in` loop to only count interesting chickens, like `.hilarious` `.leghorn`s. Check out the autocompletion popup to see what the possible values for each enum are.

@@ -6,7 +6,23 @@
  Think of another real-world object and its properties. Make up some actions or behaviors that the object might be able to perform. Write them all in plain English first in a comment:
  */
  // Add your English-language description of the type here. Make sure to add // before each line of your comment description.
-
+/*
+ Car:
+  - Manufacturer
+  - Model
+  - Engine Name
+  - Engine Type
+  - Max Power
+  - Max Torque
+  - Displacement
+  - Drivetrain
+  - Aspiration
+  - Length
+  - Height
+  - Width
+  - Weight
+  - Transmission
+ */
 /*:
  - callout(Exercise): 
  Using the `struct` syntax from this lesson, create a type for your real-world object with the properties and methods you thought of. Remembering to mark each property with `let` or `var` depending on whether or not it will be allowed to change. If you're not sure how to implement the body of one of the methods, describe what the method should do in a comment.\
@@ -15,12 +31,31 @@
  > If you make a method that tries to change a property of your struct, you'll see the error "`Cannot assign to property: 'self' is immutable`." Structs have special rules about methods that try to change the values of their properties. To get rid of the error, use the keyword `mutating` in your method declaration, like so: `mutating func myMethodThatChangesAProperty()`
  */
 // Add your own struct here:
-
+struct Car {
+    let manufacturer: String
+    let model: String
+    var engineName: String
+    var engineType: String
+    var maxPower: Double
+    var maxTorque: Double
+    var displacement: Double
+    var drivetrain: String
+    var aspiration: String
+    let length: Double
+    let height: Double
+    let width: Double
+    var weight: Double
+    var transmission: String
+    
+    func drift() {
+        print("DORIFTO")
+    }
+}
 /*:
  - callout(Exercise): 
  Use the struct you created to make a new instance of your type.
  */
-
+let hachiroku = Car(manufacturer: "Toyota", model: "Sprinter Trueno GT-Apex AE86", engineName: "4A-GEU 16V", engineType: "L4 DOHC", maxPower: 125, maxTorque: 230.5, displacement: 1587, drivetrain: "FR", aspiration: "NA", length: 4205, height: 1335, width: 1625, weight: 940, transmission: "5-Speed MT")
 //:  - Note: Here's an example of a placeholder type used for making a TrainingShoe:
 // Placeholder type
 struct Shoelaces {

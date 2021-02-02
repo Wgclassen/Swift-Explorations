@@ -27,7 +27,15 @@ Uncomment the line below to see the error, then comment it out again when you’
  */
 //let special = LunchChoice.fish
 //:  - Experiment: You and your friends are going out for lunch. Create constants for each person and assign them different cases in the enum. Notice how autocompletion shows you the possible options.
-
+let willian = LunchChoice.burger
+let vitor = LunchChoice.pasta
+let cassiane = LunchChoice.burger
+let jonatan = LunchChoice.pasta
+let flavia = LunchChoice.burger
+let david = LunchChoice.soup
+let diego = LunchChoice.burger
+let andrey = LunchChoice.soup
+let carlos = LunchChoice.pasta
 /*:
  Next learn about how the type system understands enums.\
 [Previous](@previous)  |  page 3 of 21  |  [Next: Enums and Type Inference](@next)
