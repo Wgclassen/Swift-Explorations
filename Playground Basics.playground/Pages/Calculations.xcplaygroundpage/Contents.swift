@@ -36,8 +36,8 @@ Practice using the playground like a calculator.
 Edit some of the existing expressions and add a few of your own.
 Notice that every time you make a change the results are updated in the sidebar.
  */
- 
-
+5 * 5 + 5 / 5 - 5 * 5
+9 - 8 + 7 - 6 + 5 - 4 + 3 - 2 + 1
 /*:
 Next, learn how programmers can leave notes in code.
 

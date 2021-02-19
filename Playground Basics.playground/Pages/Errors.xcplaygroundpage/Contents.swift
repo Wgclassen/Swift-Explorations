@@ -8,7 +8,7 @@ On the right hand side is an error symbol and a description of the problem.
  
  ![Division by zero error description with error symbol](DivisionByZeroError.png)
  */
-1000 / 0
+1000 / 2
 /*:
 Since there's an error, the playground stops running your code.\
 Notice that there are no results displayed in the sidebar. 👉

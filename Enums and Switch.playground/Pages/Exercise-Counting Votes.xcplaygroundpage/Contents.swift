@@ -51,7 +51,7 @@ for vote in mascotVotes {
         marmotVotes += 1
     case .salamander:
         salamanderVotes += 1
-    default:
+    case .neither:
         neitherVotes += 1
     }
 }

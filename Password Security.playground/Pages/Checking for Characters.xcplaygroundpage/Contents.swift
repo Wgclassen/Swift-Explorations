@@ -26,6 +26,8 @@ let tenMostCommonPasswords = [
 ]
 let digits = "0123456789"
 let punctuation = "!@#$%^&*(),.<>;'`~[]{}\\|/?_-+= "
+
+
 /*:
  Implement your updated algorithm below. Rather than checking the password as a whole, you'll now have to check each of its characters.
  

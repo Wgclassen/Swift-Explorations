@@ -10,7 +10,7 @@
 display.setPixel(x: 0, y: 0, color: .blue)
 display.setPixel(x: 1, y: 3, color: .yellow)
 //: - callout(Experiment): Uncomment the following line. After the `color:` parameter label, type a period; then select a color from the autocompletion options.
-//display.setPixel(x: 5, y: 2, color: )
+display.setPixel(x: 5, y: 2, color: .magenta)
 /*:
  But you can also create any color you want. The `Color` type has three initializers. You can use autocompletion to discover them.
  

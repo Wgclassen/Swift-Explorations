@@ -30,10 +30,10 @@ startSimulation()
  - callout(Exercise): 
  Try modifying these parameters to see how they affect the simulation. Look to see how quickly trails or areas of pheromone grow and dissipate, and whether there is any long-lived structure.
  */
-//environmentCellSize = 10
-//numberOfAnts = 100
-//pheromoneEvaporationRate = 50
-//pheromoneDepositRate = 400
+environmentCellSize = 10
+numberOfAnts = 150
+pheromoneEvaporationRate = 5
+pheromoneDepositRate = 400
 /*:
 ### Visualization
  
